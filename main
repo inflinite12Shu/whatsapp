@@ -1,0 +1,30 @@
+<!--JQuery-->
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<!--Floating WhatsApp css-->
+<link rel="stylesheet" href="floating-wpp.min.css">
+<!--Floating WhatsApp javascript-->
+<script type="text/javascript" src="floating-wpp.min.js"></script>
+<style>
+    .whatsapp { background-color: #7ACC72; /* Green */ border: none; color: white; text-align: center; text-decoration: none; font-size: 16px; border-radius: 20px; padding: 10px 20px; margin-top: 10px !important; width: fit-content; margin: auto; cursor: pointer }
+
+.whatsapp span { vertical-align: text-bottom !important; }
+
+.fa-whatsapp { margin-right: 10px; }
+    </style>
+<p>&nbsp;</p><div class="separator" style="clear: both; text-align: center;"><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjekPysJmR2iG7kdEbLolEjQ1CA5c6z7cY1fvkAB7ZVldWwnCLgKWO-cJZ8Bj7h-HabFLa6y8tI2iwFSvl_Ul9qoKISNvCIGcnki3uqY8hS3bhryh8epfI28wSUrIEYwfSphJoKBrw_e0Tm1aK2EZ8P8lzO0drQj5_kPxPLNiHECmXRDH9DhVkBJDrx/s1948/78894433_1220145348194662_5553690397911285760_n.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="1948" data-original-width="1924" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjekPysJmR2iG7kdEbLolEjQ1CA5c6z7cY1fvkAB7ZVldWwnCLgKWO-cJZ8Bj7h-HabFLa6y8tI2iwFSvl_Ul9qoKISNvCIGcnki3uqY8hS3bhryh8epfI28wSUrIEYwfSphJoKBrw_e0Tm1aK2EZ8P8lzO0drQj5_kPxPLNiHECmXRDH9DhVkBJDrx/s320/78894433_1220145348194662_5553690397911285760_n.jpg" width="316" /></a></div><br /><br /></div><div class="separator" style="clear: both; text-align: center;"><br /><div id="WAButton"></div></div><br /><p></p>
+<br />
+<script type="text/javascript">
+   $(function () {
+           $('#WAButton').floatingWhatsApp({
+               phone: '03163060120', //WhatsApp Business phone number
+               headerTitle: 'Chat with your lawyer on WhatsApp!', //Popup Title
+               popupMessage: 'Hello, tab here to start chat with your lawyer', //Popup Message
+               showPopup: true, //Enables popup display
+               buttonImage: '<img src="https://icons8.com/icon/bbCdIvHZ3OjJ/whatsapp" />', //Button Image
+               //headerColor: 'crimson', //Custom header color
+               //backgroundColor: 'crimson', //Custom background button color
+               position: "right" //Position: left | right
+
+           });
+       });
+</script>
